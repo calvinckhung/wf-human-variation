@@ -185,7 +185,7 @@ def main(args):
     sv_path = args.svPath
     cnv_path = args.cnvPath
     repeat_path = args.repeatPath
-    skip_svtype = True
+    skip_svtype = False
     output_file_path = output_path
 
     # Check that there is at least one input
